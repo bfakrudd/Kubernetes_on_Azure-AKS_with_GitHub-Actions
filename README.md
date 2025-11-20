@@ -62,4 +62,3 @@ Visit that IP in your browser.
 
 ---
 
-Want to customize for other languages or add Helm/Kustomize? Let me know!
