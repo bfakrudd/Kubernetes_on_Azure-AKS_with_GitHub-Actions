@@ -5,7 +5,7 @@ on:
     branches: ["main"]
 
 env:
-  REGISTRY: ${{ secrets.AZURE_CONTAINER_REGISTRY }}
+  REGISTRY: ${{ secrets.AZURE_CONTAINER_REGISTRY }}.azurecr.io
   IMAGE_NAME: demo-app
 
 jobs:
