@@ -22,7 +22,6 @@ jobs:
 
       - name: ACR Login
         run: |
-          az acr login --name ${{ secrets.AZURE_CONTAINER_REGISTRY }}
           az acr login --name cicdk8sdemo
 
       - name: Build and push Docker image
