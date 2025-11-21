@@ -49,5 +49,6 @@ jobs:
 
       - name: Deploy manifests to AKS
         run: |
+          kubectl apply -f k8s/
           kubectl set image deployment/demo-app demo-app=${{ secrets.AZURE_CONTAINER_REGISTRY }}.azurecr.io/$IMAGE_NAME:${{ github.sha }} --record
           kubectl rollout status deployment/demo-app
