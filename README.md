@@ -1,6 +1,6 @@
-# Demo: CI/CD Pipeline for Kubernetes on Azure (AKS) with GitHub Actions
+# CI/CD Pipeline for Kubernetes on Azure (AKS) with GitHub Actions
 
-This demo project shows how to build, push, and deploy a Node.js app with Docker and Kubernetes on Azure Kubernetes Service (AKS). The pipeline uses GitHub Actions.
+This project shows how to build, push, and deploy a Node.js app with Docker and Kubernetes on Azure Kubernetes Service (AKS). The pipeline uses GitHub Actions.
 
 ## Structure
 
